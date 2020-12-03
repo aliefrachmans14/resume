@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* RESPONSIVE */
+
+.contact {
+    background-image: url(../img/map-color-overlay.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid transparent; */
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contact-list h2 {
+    font-weight: 700;
+    color: #486189;
+    margin-bottom: 30px;
+}
+
+.contact-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* DESKTOP */
+@media(min-width:992px) {
+    .contact-list-item {
+        flex-direction: row;
+    }
+}

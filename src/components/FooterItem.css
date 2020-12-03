@@ -1,0 +1,28 @@
+.footer-social-icon {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgba(35, 27, 48, 1);
+    /* border: 2px solid rgba(72, 97, 137, 0.7); */
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-social-icon:hover {
+    background-color: #435B80;
+    border: transparent;
+}
+
+.footer-social-icon:hover i {
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-social-icon i {
+    margin: auto;
+    color: #435B80;
+}

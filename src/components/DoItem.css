@@ -1,0 +1,47 @@
+.do-item {
+    height: 300px;
+    width: 320px;
+    padding: 20px;
+    background: #ffffff;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 2px 20px rgba(139, 139, 139, 0.2);
+    border-radius: 6px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.do-item:hover {
+    transform: scale(1.025);
+    background: rgba(72, 97, 137, 0.7);
+    box-shadow: 0px 2px 20px rgba(139, 139, 139, 0.4);
+    /* transition: all 0.3s; */
+}
+
+.do-item:hover .do-icon i,
+.do-item:hover .do-title h4,
+.do-item:hover .do-text p {
+    color: #ffffff;
+}
+
+.do-title {
+    margin: 20px 0;
+}
+
+.do-title h4 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.do-text p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.do-icon i {
+    color: rgba(72, 97, 137, 0.7)
+}

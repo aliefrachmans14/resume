@@ -1,0 +1,28 @@
+/* RESPONSIVE */
+.timeline-list {
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+
+.timeline-list .col-lg-6 {
+    height: 100%;
+}
+
+.timeline-list .col-lg-6 h2 {
+    padding-top: 10px;
+    color: #486189;
+    font-weight: 700;
+}
+
+.col-lg-6:last-child {
+    margin-top: 30px;
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    .col-lg-6:last-child {
+        margin-top: 0;
+    }
+}

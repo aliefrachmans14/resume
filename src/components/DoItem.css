@@ -18,7 +18,6 @@
     transform: scale(1.025);
     background: rgba(72, 97, 137, 0.7);
     box-shadow: 0px 2px 20px rgba(139, 139, 139, 0.4);
-    /* transition: all 0.3s; */
 }
 
 .do-item:hover .do-icon i,

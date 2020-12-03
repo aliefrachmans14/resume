@@ -3,7 +3,6 @@
     margin: 100px auto;
     display: flex;
     flex-wrap: wrap;
-    /* border: 2px solid black; */
 }
 
 .timeline-list .col-lg-6 {

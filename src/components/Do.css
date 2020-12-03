@@ -6,8 +6,6 @@
     align-items: center;
     flex-direction: column;
     margin: 100px auto;
-    /* user-select: none; */
-    /* border: 2px solid black; */
 }
 
 .doing-list h2 {
@@ -15,13 +13,6 @@
     font-weight: 700;
     margin-bottom: 30px;
 }
-
-/* .do-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 2px solid black;
-} */
 
 .do-list {
     display: grid;

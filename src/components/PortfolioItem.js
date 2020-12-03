@@ -18,7 +18,6 @@ function PortfolioItem(props) {
     return (
         <div className="portfolio-item" alt={props.pLabel} >
             <img src={props.pImage} alt="Portfolio" />
-            {/* <p>{props.pLabel}</p> */}
 
             <div className="portfolio-hover-content"
                 onMouseEnter={e => {

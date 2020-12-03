@@ -59,7 +59,6 @@ function Footer() {
                                 <Link to="/">
                                     <img src={logo} alt="logo" />
                                 </Link>
-                                {/* <img src={logo} alt="logo" /> */}
                             </div>
                         </div>
                         <div className="col-lg-6 footer-main-content">

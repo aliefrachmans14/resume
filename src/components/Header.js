@@ -13,10 +13,10 @@ export default function Header() {
         <div className="header-section" id="about">
             <div className='container'>
                 <div className="header-container">
-                    <div className="col">
+                    <div className="col col-lg-6">
                         <img src={Profpic} alt="Alief Rachman Septiana" className="profile-image" />
                     </div>
-                    <div className="col header-info">
+                    <div className="col col-lg-6 header-info">
                         <h2>Alief Rachman Septiana</h2>
                         <h4>Hello, I’m a web-developer based on Jakarta. I have rich experience in web site design & building and customization.</h4>
                         <div className="buttons">

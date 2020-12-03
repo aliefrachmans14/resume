@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import { Link, NavLink } from "react-router-dom";
-// import { Link } from "react-router-dom";
-// import { NavHashLink as NavLink } from "react-router-hash-link";
 import { Link, animateScroll as scroll } from "react-scroll";
 import './Navbar.css';
 import logo from '../img/initial-name-logo.svg'
@@ -89,7 +86,7 @@ function Navbar() {
                                 to="experiences"
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-90}
                                 duration={500}
                                 className='nav-links' onClick={closeMobileMenu} replace
                             >Experiences</Link>
@@ -100,7 +97,7 @@ function Navbar() {
                                 to="portfolio"
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-75}
                                 duration={500}
                                 className='nav-links' onClick={closeMobileMenu} replace
                             >Portfolio</Link>
@@ -111,78 +108,11 @@ function Navbar() {
                                 to="contact"
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-75}
                                 duration={500}
                                 className='nav-links' onClick={closeMobileMenu} replace
                             >Contact</Link>
                         </li>
-
-                        {/* <li className='nav-item'>
-                            <NavLink
-                                exact={true}
-                                activeClassName='is-active'
-                                className='nav-links'
-                                to='/'
-                                onClick={closeMobileMenu}
-                                replace
-                            >About</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink
-                                activeClassName='is-active'
-                                className='nav-links'
-                                to='/skills'
-                                onClick={closeMobileMenu}
-                                replace
-                            >Skills</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink
-                                activeClassName='is-active'
-                                className='nav-links'
-                                to='/experiences'
-                                onClick={closeMobileMenu}
-                                replace
-                            >Experiences</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink
-                                activeClassName='is-active'
-                                className='nav-links'
-                                to='/portfolio'
-                                onClick={closeMobileMenu}
-                                replace>Portfolio</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink
-                                activeClassName='is-active'
-                                className='nav-links'
-                                to='/contact'
-                                onClick={closeMobileMenu}
-                                replace>Contact</NavLink>
-                        </li> */}
-
-
-                        {/* <li className='nav-item'>
-                            <Link to='/' exact={true} activeClass='is-active' className='nav-links' onClick={closeMobileMenu} replace>
-                                Home
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/services' className='nav-links' onClick={closeMobileMenu} replace>
-                                About
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/products' className='nav-links' onClick={closeMobileMenu} replace>
-                                Portfolio
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/products' className='nav-links' onClick={closeMobileMenu} replace>
-                                Contact
-                            </Link>
-                        </li> */}
                     </ul>
                 </Container>
             </nav>

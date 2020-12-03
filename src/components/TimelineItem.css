@@ -1,7 +1,6 @@
 .timeline-item {
     margin: 0 auto;
     height: 100%;
-    /* border: 2px solid black; */
 }
 
 .tl-content h4::before {
@@ -13,16 +12,12 @@
     width: 1px;
     left: 45px;
     top: 65px;
-    /* bottom: 5px; */
-    /* background-color: #242424; */
 }
 
 .tl-periode {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: center; */
-    /* border: 2px solid black; */
 }
 
 .tl-periode h5 {
@@ -56,13 +51,3 @@
     line-height: 1.5;
     color: rgba(0, 0, 0, 0.6);
 }
-
-/* @media (min-width: 992px) {
-    .timeline-item {
-        margin-top: 40px auto;
-    }
-
-    .tl-content h4::before {
-        height: 90%;
-    }
-} */

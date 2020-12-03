@@ -18,10 +18,10 @@ html {
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
   letter-spacing: 0.035rem;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  /* -webkit-user-select: none; */
+  /* -moz-user-select: none; */
+  /* -ms-user-select: none; */
+  /* user-select: none; */
   outline: none !important;
   prefix: none;
 
